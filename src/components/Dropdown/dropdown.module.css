@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+.dropdownContainer {
+  position: relative;
+  display: inline-block;
+  padding-top: 20px;
+}
+.dropdownButton {
+  padding: 20px 150px 20px 20px;
+  border: 0px transparent;
+  border-radius: 5px;
+  background-color: rgba(52, 95, 213, 0.711);
+  color: white;
+}
+.dropdownButton:hover {
+  cursor: pointer;
+}

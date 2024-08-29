@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.dropdownList {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.list {
+  padding: 0;
+  border: 1px solid rgba(128, 128, 128, 0.301);
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px 5px rgba(218, 212, 212, 0.084),
+    -2px -2px 5px 5px rgba(190, 182, 182, 0.151);
+  list-style-type: none;
+}
+
+.listItem {
+  display: flex;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(112, 107, 107, 0.215);
+}
+
+li {
+  margin: 5px;
+}
+
+.choosen {
+  display: flex;
+  padding: 8px 20px;
+  border-bottom: 1px solid rgba(112, 107, 107, 0.215);
+  cursor: pointer;
+  color: rgba(52, 95, 213, 0.711);
+}
